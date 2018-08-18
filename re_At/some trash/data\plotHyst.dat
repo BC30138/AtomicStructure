@@ -1,0 +1,10 @@
+width = 0.1
+bin(x, s) = s*int(x / s)
+set ylabel 'Atoms number'
+set xlabel 'Distance'
+set boxwidth width
+plot 'DistAnalysis_Hyst.dat' u (bin($1, width) + width/2.0):($2) w boxes fs solid 0.5 title 'DistAnalyze'
+set yrange[0:GPVAL_Y_MAX + 1]
+set xrange[GPVAL_X_MIN - width:GPVAL_X_MAX + width]
+replot
+pause - 1

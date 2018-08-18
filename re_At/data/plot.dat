@@ -1,0 +1,5 @@
+set xlabel 'X axis'
+set ylabel 'Y axis'
+set zlabel 'Z axis'
+splot 'XYZ/NaClpresblock.xyz' using 2:3 : 4 w points lt rgb 'red' pt 7 title 'XYZ/NaClpresblock.xyz'
+pause - 1

@@ -1,0 +1,8 @@
+Fe+2C	O+3A	3.0
+Cl+2D	O+3A	1.0
+Fe+2C	H2-B	1.5
+Cl+2D	H2-B	0.1
+Fe+2C	Fe+2C	0.1
+O+3A	O+3A	0.1
+Cl+2D	Cl+2D	0.1
+H2-B	H2-B	0.1
