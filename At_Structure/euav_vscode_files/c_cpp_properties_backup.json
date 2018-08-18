@@ -1,0 +1,47 @@
+{
+    "configurations": [
+        {
+            "comment": "c++ -E -x c++ - -v < /dev/null",
+            "name": "Mac",
+            "includePath": [
+                "${workspaceRoot}/src",
+                "${workspaceRoot}",
+                "/usr/local/include",
+                "/usr/include",
+                "/usr/local/Cellar/gcc/7.3.0/include/c++/7.3.0",
+                "/usr/local/Cellar/gcc/7.3.0/include/c++/7.3.0/x86_64-apple-darwin16.7.0",
+                "/usr/local/Cellar/gcc/7.3.0/include/c++/7.3.0/backward",
+                "/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin16.7.0/7.3.0/include",
+                "/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin16.7.0/7.3.0/include-fixed",
+                "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include"
+            ],
+            "defines": [],
+            "intelliSenseMode": "clang-x64",
+            "browse": {
+                "path": [
+                    "${workspaceRoot}/src",
+                    "${workspaceRoot}",
+                    "/usr/local/include",
+                    "/usr/include/",
+                    "/usr/local/Cellar/gcc/7.3.0/include/c++/7.3.0",
+                    "/usr/local/Cellar/gcc/7.3.0/include/c++/7.3.0/x86_64-apple-darwin17.0.0",
+                    "/usr/local/Cellar/gcc/7.3.0/include/c++/7.3.0/backward",
+                    "/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin16.7.0/7.3.0/include",
+                    "/usr/local/Cellar/gcc/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin16.7.0/7.3.0/include-fixed",
+                    "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            },
+            "macFrameworkPath": [
+                "/System/Library/Frameworks",
+                "/Library/Frameworks",
+                "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks"
+            ],
+            "compilerPath": "/usr/bin/clang",
+            "cStandard": "c11",
+            "cppStandard": "c++11"
+        }
+    ],
+    "version": 3
+}
